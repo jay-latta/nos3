@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-  - source: /deployment
+  - source: /
     destination: /nos3
 hooks:
   AfterInstall:
-    - location: navigation.sh
+    - location: navigate.sh
