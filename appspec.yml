@@ -2,4 +2,4 @@ version: 0.0
 os: linux
 hooks:
   AfterInstall:
-    - location: nos3/navigate.sh
+    - location: navigate.sh
