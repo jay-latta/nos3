@@ -2,5 +2,5 @@ version: 0.0
 os: linux
 hooks:
   AfterInstall:
-    command: ["/bin/sh", "-c"]
-    args: ["cd nos3 && make"]
+    - command: ["/bin/sh", "-c"]
+      args: ["cd nos3 && make"]
