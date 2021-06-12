@@ -3,3 +3,6 @@ os: linux
 files:
   - source: /
     destination: /nos3
+hooks:
+  AfterInstall:
+    - location: /nos3/navigate.sh
