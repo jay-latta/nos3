@@ -5,7 +5,7 @@ files:
     destination: /nos3
 hooks:
   AfterInstall:
-    - command: ['/bin/sh', '-c']
+    - command: ['bin/sh', '-c']
     - args: ['cd /nos3 && cd .. && cd opt/nos3 && 
         sudo chown $USER 42/ && cd .. &&
         cd .. &&
