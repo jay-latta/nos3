@@ -103,6 +103,3 @@
 [submodule "sims/truth_42_sim"]
 	path = sims/truth_42_sim
 	url = https://github.com/nasa-itc/truth_42_sim.git
-[submodule "deployment"]
-	path = deployment
-	url = https://github.com/jay-latta/deployment.git
